@@ -1,0 +1,28 @@
+{
+  "name": "lshud-volume",
+  "productName": "lshud-volume",
+  "version": "1.0.0",
+  "description": "Volume control hud for linux-system-hud",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/phil-giambra/lshud-volume",
+  "keywords": [
+    "linux-system-hud",
+    "xorg",
+    "desktop",
+    "xserver",
+    "system",
+    "utility",
+    "audio",
+    "volume"
+  ],
+  "bin": {},
+  "author": "Phil Giambra",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {}
+}
