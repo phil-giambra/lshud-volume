@@ -21,8 +21,6 @@
   "bin": {},
   "author": "Phil Giambra",
   "license": "MIT",
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "dependencies": {}
 }

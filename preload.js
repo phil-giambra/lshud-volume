@@ -1,6 +1,6 @@
 const ipc = require('electron').ipcRenderer;
 
-window.hudid = "volume"
+window.hudid = "lshud-volume"
 
 window.actl = require('./lib/audioctl.js')
 
@@ -24,7 +24,7 @@ ipc.on('data_update', (event, data) => {
     if (dataUpdate[data.type]){
         dataUpdate[data.type](data)
     }
-    
+
 })
 
 
