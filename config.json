@@ -1,7 +1,8 @@
 {
-    "id":"volume",
+    "id":"lshud-volume",
     "name":"Volume Changer",
     "hud_type":"normal",
+    "load_url": null,
     "url":null,
     "url_bounds":{ "x": 0, "y": 0, "width": 300, "height": 300   },
     "url_auto_resize": {"horizontal":true, "vertical":true},
@@ -10,7 +11,6 @@
     "width":115 ,
     "height": 280,
     "frame":false,
-    "depends":[],
     "subscribe":[],
     "offer":["volume_update","volume_error"],
     "active":true,
